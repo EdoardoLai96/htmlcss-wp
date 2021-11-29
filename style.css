@@ -215,6 +215,30 @@ border-radius: 10px;
     float: left;
 }
 
+
+
+.rightside .img-container{
+    position: relative;
+    height: 150px;
+}
+
+.rightside .img-container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.rightside .container .overlay{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}    
+
 /* Fine partex azzurra destra */
 
 

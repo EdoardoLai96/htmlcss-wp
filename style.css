@@ -187,7 +187,20 @@ border-radius: 10px;
     object-fit: cover;
     width: 100%;
     height: 100%;
+
 }
+
+.contenuto .container .overlay{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}    
+
+        
 
 
 
@@ -195,11 +208,15 @@ border-radius: 10px;
 
 /* Fine parte azzurra centro */
 
+/* Parte azzurra destra */
 
 .parte-azzurra .rightside{
     width: 20%;
     float: left;
 }
+
+/* Parte azzurra destra */
+
 /* fine parte azzurra  */
 
 

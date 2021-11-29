@@ -109,9 +109,8 @@ main .parte-azzurra{
 
 .parte-azzurra::after{
     content: "";
-    display: table;
     clear: both;
-
+    display: table;
 }
 
 .parte-azzurra div{
@@ -171,11 +170,9 @@ height: 100%;
 border-radius: 10px;
 
 }
-
-
-
 /* Fine parte azzurra sinistra */
 
+/* Parte azzurra centro */
 
 
 .parte-azzurra .contenuto{
@@ -186,12 +183,30 @@ border-radius: 10px;
     float: left;
 }
 
+.contenuto .img-container{
+    position: relative;
+}
+
+.contenuto .container img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* Fine parte azzurra centro */
+
+
 .parte-azzurra .rightside{
     width: 20%;
     height: 400px;
     float: left;
 }
 /* fine parte azzurra  */
+
+
 
 /* fine parte principale  */
 footer{

@@ -27,10 +27,11 @@ header .logo{
     position: absolute;
     top: 0;
     left: 0;
-    border-right: 1px solid #BEBEBE;
+    border-right: 1px solid #bebebeec;
     padding-right: 20px;
 }
 
+/* inizio menù nav  */
 header .menù ul{
     position: absolute;
     bottom: 0;
@@ -46,6 +47,7 @@ color: #9e9e9e;
 text-decoration: none;
 padding-right: 5px;
 }
+/* fine menù nav  */
 
 
 /* fine intestazione  */

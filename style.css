@@ -1,0 +1,87 @@
+/* common */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+/* fine common */
+
+/* intestazione  */
+header{
+    background-color: #E579E5;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* fine intestazione  */
+
+/* parte principale  */
+
+/* parte gialla  */
+main .parte-gialla{
+    height: 400px;
+    background-color: #E1D57A;
+    margin-bottom: 20px;
+}
+/* fine parte gialla  */
+
+/* parte azzurra  */
+main .parte-azzurra{
+    height: 500px;
+    background-color: #0086FF;
+}
+
+.parte-azzurra::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.parte-azzurra div{
+    background-color: #ABCFE6;
+}
+
+.parte-azzurra .intestazione{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.parte-azzurra .leftside{
+    width: 18%;
+    height: 400px;
+    float: left;
+}
+
+.parte-azzurra .contenuto{
+    width: 60%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 400px;
+    float: left;
+}
+
+.parte-azzurra .rightside{
+    width: 18%;
+    height: 400px;
+    float: left;
+}
+/* fine parte azzurra  */
+
+/* fine parte principale  */
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #8702FF;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}

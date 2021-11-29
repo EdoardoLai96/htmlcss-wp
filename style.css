@@ -32,6 +32,17 @@ header .logo{
     border-right: 1px solid #f6f6f6d8;
     padding-right: 20px;
 }
+
+header .menù ul{
+    position: absolute;
+    bottom: 0;
+}
+
+
+header .menù li{
+    display: inline-block;
+}
+
 /* fine intestazione  */
 
 /* parte principale  */

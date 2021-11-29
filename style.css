@@ -1,11 +1,9 @@
 /* common */
-
 *{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
     font-family: 'Raleway', sans-serif;
-
 }
 
 body{
@@ -13,10 +11,9 @@ body{
     margin: auto;
     margin-bottom: 20px;
 }
-
 /* fine common */
 
-/* intestazione  */
+/* INTESTAZIONE  */
 header{
     width: 100%;
     margin-bottom: 30px;
@@ -31,10 +28,9 @@ header .logo{
     margin-bottom: 30px;
 }
 
-/* inizio menù nav  */
+/* inizio menù nav */
 header .menù ul{
 }
-
 
 header .menù li{
     display: inline-block;
@@ -49,10 +45,10 @@ font-weight: 400;
 }
 /* fine menù nav  */
 
-/* fine intestazione  */
+/* FINE INTESTAZIONE  */
 
 
-/* parte principale  */
+/* PARTE PRINCIPALE */
 
 /* parte gialla  */
 main .parte-gialla{
@@ -60,7 +56,6 @@ main .parte-gialla{
     position: relative;
     height: 450px;
 }
-
 
 main .parte-gialla .container{
     padding: 50px 40px;
@@ -79,7 +74,6 @@ main .parte-gialla .container p{
 font-size: 1rem;
 }
 
-
 main .parte-gialla .overlay{
     position: absolute;
     bottom: 0;
@@ -89,6 +83,7 @@ main .parte-gialla .overlay{
     height: 100%;
     border-radius: 10px;
 }
+
 main .parte-gialla .banner-1{
     width: 100%;
     height: 100%;
@@ -99,7 +94,6 @@ main .parte-gialla .banner-1{
 
 /* parte azzurra  */
 main .parte-azzurra{
-
 }
 
 .parte-azzurra::after{
@@ -110,7 +104,6 @@ main .parte-azzurra{
 
 .parte-azzurra div{
 }
-
 
 /* inizio intestazione parte azzurra  */
 
@@ -128,12 +121,10 @@ main .parte-azzurra{
 .parte-azzurra .intestazione p{
 color: #A8A8A8;
 }
-
 /* fine intestazione parte azzurra  */
 
 
-/* Parte azzurra sinistra */
-
+/* PARTE AZZURRA SINISTRA */
 .parte-azzurra .leftside{
     width: 20%;
     float: left;
@@ -171,7 +162,6 @@ border-radius: 10px;
 
 /* Parte azzurra centro */
 
-
 .parte-azzurra .contenuto{
     width: 56%;
     margin-right: 2%;
@@ -198,7 +188,6 @@ font-weight: 400;
 .contenuto .container p{
 color: #A8A8A8;
 }
-    
 
 .contenuto .container .overlay{
     position: absolute;
@@ -210,12 +199,6 @@ color: #A8A8A8;
     border-radius: 10px;
 }    
 
-        
-
-
-
-
-
 /* Fine parte azzurra centro */
 
 /* Parte azzurra destra */
@@ -224,8 +207,6 @@ color: #A8A8A8;
     width: 20%;
     float: left;
 }
-
-
 
 .rightside .img-container{
     position: relative;
@@ -246,8 +227,6 @@ font-weight: 400;
 .rightside .container p{
 color: #A8A8A8;
 }
-    
-
 
 .rightside .container .overlay{
     position: absolute;
@@ -262,11 +241,12 @@ color: #A8A8A8;
 /* Fine partex azzurra destra */
 
 
-/* fine parte azzurra  */
+/* FINE PARTE AZZURRA */
 
 
+/* FINE PARTE PRINCIPALE  */
 
-/* fine parte principale  */
+/* INIZIO FOOTER */
 footer{
     width: 100%;
     text-align: center;
@@ -276,3 +256,4 @@ footer{
 footer .cuore{
     color: #f00
 }
+/* FINE FOOTER */

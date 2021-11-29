@@ -140,11 +140,13 @@ color: #A8A8A8;
 
 .leftside .img-container{
     position: relative;
+    height: 150px;
 }
 
-.leftside .container img{
+.leftside .img-container img{
     object-fit: cover;
     width: 100%;
+    height: 100%;
 }
 .leftside .container h4{
 font-weight: 400;
@@ -178,11 +180,13 @@ border-radius: 10px;
 
 .contenuto .img-container{
     position: relative;
+    height: 150px;
 }
 
-.contenuto .container img{
+.contenuto .img-container img{
     object-fit: cover;
     width: 100%;
+    height: 100%;
 }
 
 

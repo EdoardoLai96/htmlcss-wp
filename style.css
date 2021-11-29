@@ -62,7 +62,19 @@ main .parte-gialla{
     height: 400px;
     margin-bottom: 20px;
     margin-top: 20px;
+    position: relative;
 }
+
+
+main .parte-gialla .container{
+    padding: 50px 40px;
+    position: absolute;
+    bottom: 0;
+    width: 55%;
+    
+}
+
+
 
 main .parte-gialla .banner-1{
     width: 100%;

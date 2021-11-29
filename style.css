@@ -20,6 +20,17 @@ header{
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+header .logo{
+    height: 50%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
 }
 /* fine intestazione  */
 

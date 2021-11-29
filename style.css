@@ -190,6 +190,15 @@ border-radius: 10px;
 
 }
 
+.contenuto .container h4{
+font-weight: 400;
+}
+    
+.contenuto .container p{
+color: #A8A8A8;
+}
+    
+
 .contenuto .container .overlay{
     position: absolute;
     top: 0;
@@ -228,6 +237,16 @@ border-radius: 10px;
     height: 100%;
 
 }
+
+.rightside .container h4{
+font-weight: 400;
+}
+        
+.rightside .container p{
+color: #A8A8A8;
+}
+    
+
 
 .rightside .container .overlay{
     position: absolute;

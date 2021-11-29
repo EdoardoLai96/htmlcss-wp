@@ -18,25 +18,20 @@ body{
 /* intestazione  */
 header{
     width: 100%;
-    height: 100px;
     margin-bottom: 40px;
     position: relative;
 }
 
 header .logo{
-    height: 50%;
+    height: 50px;
     object-fit: contain;
-    position: absolute;
-    top: 0;
-    left: 0;
     border-right: 1px solid #bebebeec;
     padding-right: 20px;
+    margin-bottom: 30px;
 }
 
 /* inizio menù nav  */
 header .menù ul{
-    position: absolute;
-    bottom: 0;
 }
 
 
@@ -103,7 +98,6 @@ main .parte-gialla .banner-1{
 
 /* parte azzurra  */
 main .parte-azzurra{
-    height: 500px;
 
 }
 
@@ -179,7 +173,6 @@ border-radius: 10px;
     width: 56%;
     margin-right: 2%;
     margin-left: 2%;
-    height: 400px;
     float: left;
 }
 
@@ -201,7 +194,6 @@ border-radius: 10px;
 
 .parte-azzurra .rightside{
     width: 20%;
-    height: 400px;
     float: left;
 }
 /* fine parte azzurra  */

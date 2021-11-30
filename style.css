@@ -142,6 +142,8 @@ color: #A8A8A8;
 }
 .leftside .container h4{
 font-weight: 400;
+margin: 10px 0;
+
 }
 
 .leftside .container p{
@@ -183,6 +185,8 @@ border-radius: 10px;
 
 .contenuto .container h4{
 font-weight: 400;
+margin: 10px 0;
+
 }
     
 .contenuto .container p{
@@ -221,7 +225,8 @@ color: #A8A8A8;
 }
 
 .rightside .container h4{
-font-weight: 400;
+   font-weight: 400;
+   margin: 10px 0;
 }
         
 .rightside .container p{
